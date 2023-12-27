@@ -28,7 +28,7 @@ function generateColor() {
     var letters = "0123456789ABCDEF";
     var color = "#";
     for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
+        // color += letters[Math.floor(Math.random() * 16)]; these line usage why to use *16
     }
     return color;
 }
